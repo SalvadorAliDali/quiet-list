@@ -1,0 +1,63 @@
+/* One menu surface and item treatment for every dropdown in the app. */
+.app-menu.app-menu {
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--text);
+  box-shadow: 0 12px 32px #163c2726;
+}
+.app-menu.app-menu button {
+  min-height: 38px;
+  padding: 9px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--text);
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+.app-menu.app-menu button:hover,
+.app-menu.app-menu button:focus-visible {
+  background: var(--field);
+  outline: 2px solid var(--border);
+  outline-offset: -2px;
+}
+.app-menu.app-menu button[aria-selected='true'],
+.app-menu.app-menu button[aria-current='true'] {
+  background: var(--soft);
+  color: #00692f;
+  font-weight: 600;
+}
+.app-menu.app-menu .color-menu-delete {
+  color: #b44747;
+}
+.app-menu.app-menu .color-menu-delete:hover,
+.app-menu.app-menu .color-menu-delete:focus-visible {
+  background: #fcf0ed;
+  outline-color: #f0d6d1;
+}
+.dropdown-trigger {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 7px 10px;
+  max-width: 100%;
+  min-width: 0;
+}
+.app-menu .block-check {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: #007a38;
+}
+.app-menu .block-icon {
+  flex-shrink: 0;
+}
+.app-menu .block-label {
+  flex: 1;
+  min-width: 0;
+}
+.app-menu.app-menu strong {
+  font-size: 12px;
+  line-height: 20px;
+}
