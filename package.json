@@ -17,6 +17,7 @@
     "check": "npm run typecheck && npm run lint && npm run format:check && npm test && npm run build"
   },
   "dependencies": {
+    "@floating-ui/dom": "^1.8.0",
     "@tiptap/extension-highlight": "^3.31.4",
     "@tiptap/extension-placeholder": "^3.31.4",
     "@tiptap/extension-task-item": "^3.31.4",
