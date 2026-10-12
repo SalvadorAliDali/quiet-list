@@ -1,0 +1,9 @@
+node_modules
+dist
+.npm-cache
+.openai
+package-lock.json
+playwright-report
+test-results
+src/App.before-refactor.txt
+refactor.cjs
